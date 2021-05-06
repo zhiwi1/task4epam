@@ -1,0 +1,58 @@
+2021-05-06 02:20:02 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- It has survived - not only (five) centuries, but also the leap into electronic
+typesetting, remaining essentially unchanged.
+2021-05-06 02:20:02 [main] INFO  epam.handlertask.parser.impl.ParagraphParser-  It was popularised in the “Динамо” (Рига)
+with the release of Letraset sheets.
+2021-05-06 02:20:02 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- toString() containing Lorem Ipsum passages, and
+more recently with desktop publishing software like Aldus PageMaker Faclon9 including
+versions of Lorem Ipsum!
+2021-05-06 02:20:02 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- It is a long a!
+2021-05-06 02:20:02 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- =b established fact that a reader will be distracted by the readable
+content of a page when looking at its layout.
+2021-05-06 02:20:02 [main] INFO  epam.handlertask.parser.impl.ParagraphParser-  The point of using Ipsum is that it has a
+more-or-less normal distribution ob.
+2021-05-06 02:20:02 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- toString(a?
+2021-05-06 02:20:02 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- b:c), as opposed to using (Content here),
+content here's, making it look like readable English?
+2021-05-06 02:20:02 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- It is a established fact that a reader will be of a page when looking at its layout.
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- It
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- has
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- survived
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- -
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- not
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- only
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- (five)
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- centuries,
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- but
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- also
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- the
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- leap
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- into
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- electronic
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- typesetting,
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- remaining
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- essentially
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- unchanged.
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- 
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- It
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- was
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- popularised
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- in
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- the
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- “Динамо”
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- (Рига)
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- with
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- the
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- release
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- of
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- Letraset
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- sheets.
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- toString()
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- containing
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- Lorem
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- Ipsum
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- passages,
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- and
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- more
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- recently
+2021-05-06 02:21:59 [main] INFO  epam.handlertask.parser.impl.SentenceParser- with

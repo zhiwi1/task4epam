@@ -1,0 +1,45 @@
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- w
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- h
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- e
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- n
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- l
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- o
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- o
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- k
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- i
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- n
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- g
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- a
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- t
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- i
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- t
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- s
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- l
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- a
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- y
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- o
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- u
+2021-05-06 15:21:28 [main] INFO  epam.handlertask.parser.impl.WordParser- t
+2021-05-06 15:22:07 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-06 15:22:07 [main] INFO  epam.handlertask.parser.impl.TextParser- It has survived - not only (five) centuries, but also the leap into electronic
+typesetting, remaining essentially unchanged. It was popularised in the “Динамо” (Рига)
+with the release of Letraset sheets.toString() containing Lorem Ipsum passages, and
+more recently with desktop publishing software like Aldus PageMaker Faclon9 including
+versions of Lorem Ipsum!
+
+2021-05-06 15:22:07 [main] INFO  epam.handlertask.parser.impl.TextParser- It is a long a!=b established fact that a reader will be distracted by the readable
+content of a page when looking at its layout. The point of using Ipsum is that it has a
+more-or-less normal distribution ob.toString(a?b:c), as opposed to using (Content here),
+content here's, making it look like readable English?
+
+2021-05-06 15:22:07 [main] INFO  epam.handlertask.parser.impl.TextParser- It is a established fact that a reader will be of a page when looking at its layout...
+
+2021-05-06 15:22:48 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-06 15:22:48 [main] INFO  epam.handlertask.parser.impl.TextParser- It has survived - not only (five) centuries, but also the leap into electronictypesetting, remaining essentially unchanged. It was popularised in the “Динамо” (Рига)with the release of Letraset sheets.toString() containing Lorem Ipsum passages, andmore recently with desktop publishing software like Aldus PageMaker Faclon9 includingversions of Lorem Ipsum!
+2021-05-06 15:22:48 [main] INFO  epam.handlertask.parser.impl.TextParser- It is a long a!=b established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Ipsum is that it has amore-or-less normal distribution ob.toString(a?b:c), as opposed to using (Content here),content here's, making it look like readable English?
+2021-05-06 15:22:48 [main] INFO  epam.handlertask.parser.impl.TextParser- It is a established fact that a reader will be of a page when looking at its layout...
+2021-05-06 15:25:37 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-06 15:25:37 [main] INFO  epam.handlertask.parser.impl.TextParser- It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the “Динамо” (Рига) with the release of Letraset sheets.toString() containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker Faclon9 including versions of Lorem Ipsum!
+2021-05-06 15:25:37 [main] INFO  epam.handlertask.parser.impl.TextParser-  It is a long a!=b established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Ipsum is that it has a more-or-less normal distribution ob.toString(a?b:c), as opposed to using (Content here), content here's, making it look like readable English?
+2021-05-06 15:25:37 [main] INFO  epam.handlertask.parser.impl.TextParser-  It is a established fact that a reader will be of a page when looking at its layout... 
+2021-05-06 15:28:42 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...

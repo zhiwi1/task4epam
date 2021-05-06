@@ -1,0 +1,29 @@
+2021-05-06 15:59:12 [main] INFO  epam.handlertask.parser.impl.TextParser-  It is a long a!=b established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Ipsum is that it has a more-or-less normal distribution ob.toString(a?b:c), as opposed to using (Content here), content here's, making it look like readable English? 
+2021-05-06 15:59:12 [main] INFO  epam.handlertask.parser.impl.ParagraphParser-  established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+2021-05-06 15:59:12 [main] INFO  epam.handlertask.parser.impl.ParagraphParser-  The point of using Ipsum is that it has a more-or-less normal distribution ob.
+2021-05-06 15:59:12 [main] INFO  epam.handlertask.parser.impl.TextParser-  It is a established fact that a reader will be of a page when looking at its layout... 
+2021-05-06 15:59:12 [main] INFO  epam.handlertask.parser.impl.ParagraphParser-  It is a established fact that a reader will be of a page when looking at its layout.
+2021-05-06 15:59:12 [main] INFO  epam.handlertask.parser.impl.TextParser-  Bye бандерлоги. 
+2021-05-06 16:00:59 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-06 16:00:59 [main] INFO  epam.handlertask.parser.impl.TextParser-  It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the “Динамо” (Рига) with the release of Letraset sheets.toString() containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker Faclon9 including versions of Lorem Ipsum! 
+2021-05-06 16:00:59 [main] INFO  epam.handlertask.parser.impl.ParagraphParser-  It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+2021-05-06 16:00:59 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- ) with the release of Letraset sheets.
+2021-05-06 16:00:59 [main] INFO  epam.handlertask.parser.impl.TextParser-  It is a long a!=b established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Ipsum is that it has a more-or-less normal distribution ob.toString(a?b:c), as opposed to using (Content here), content here's, making it look like readable English? 
+2021-05-06 16:00:59 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- b established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+2021-05-06 16:00:59 [main] INFO  epam.handlertask.parser.impl.ParagraphParser-  The point of using Ipsum is that it has a more-or-less normal distribution ob.
+2021-05-06 16:00:59 [main] INFO  epam.handlertask.parser.impl.TextParser-  It is a established fact that a reader will be of a page when looking at its layout... 
+2021-05-06 16:00:59 [main] INFO  epam.handlertask.parser.impl.ParagraphParser-  It is a established fact that a reader will be of a page when looking at its layout.
+2021-05-06 16:00:59 [main] INFO  epam.handlertask.parser.impl.TextParser-  Bye бандерлоги. 
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.parser.impl.TextParser-  It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the “Динамо” (Рига) with the release of Letraset sheets.toString() containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker Faclon9 including versions of Lorem Ipsum! 
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- unchanged.
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- sheets.
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- Ipsum!
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.parser.impl.TextParser-  It is a long a!=b established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Ipsum is that it has a more-or-less normal distribution ob.toString(a?b:c), as opposed to using (Content here), content here's, making it look like readable English? 
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- a!
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- layout.
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- ob.
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- toString(a?
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- English?
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.parser.impl.TextParser-  It is a established fact that a reader will be of a page when looking at its layout... 
+2021-05-06 16:03:46 [main] INFO  epam.handlertask.parser.impl.ParagraphParser- layout.
