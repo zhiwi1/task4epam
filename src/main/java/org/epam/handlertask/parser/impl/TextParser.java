@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.epam.handlertask.composite.Component;
 import org.epam.handlertask.composite.ComponentType;
-import org.epam.handlertask.composite.impl.Composite;
+import org.epam.handlertask.composite.impl.TextComponent;
 import org.epam.handlertask.parser.ParserChain;
 
 import java.util.List;
@@ -31,8 +31,8 @@ public class TextParser implements ParserChain {
 
             for (String paragraph : paragraphs) {
 
-                if (!paragraph.equals("")) {
-                    Composite paragraphComposite = new Composite(ComponentType.PARAGRAPH);
+                if (!paragraph.isEmpty()) {
+                    TextComponent paragraphComposite = new TextComponent(ComponentType.PARAGRAPH);
                     composite.add(paragraphComposite);
                     nextChain.processData(paragraph, paragraphComposite);
                 }

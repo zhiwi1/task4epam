@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.epam.handlertask.composite.Component;
 import org.epam.handlertask.composite.ComponentType;
-import org.epam.handlertask.composite.impl.Composite;
+import org.epam.handlertask.composite.impl.TextComponent;
 import org.epam.handlertask.parser.ParserChain;
 
 import java.util.regex.Matcher;
@@ -33,7 +33,7 @@ public class ParagraphParser implements ParserChain {
             index=wordMatcher.end();
 //            String sentence = text.substring(wordMatcher.start(), wordMatcher.end());
 //            logger.info(sentence);
-            Composite sentenceComposite = new Composite(ComponentType.SENTENCE);
+            TextComponent sentenceComposite = new TextComponent(ComponentType.SENTENCE);
             composite.add(sentenceComposite);
             nextChain.processData(sentence, sentenceComposite);
         }

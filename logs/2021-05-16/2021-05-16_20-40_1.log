@@ -1,0 +1,58 @@
+2021-05-16 20:05:50 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-16 20:05:50 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-16 20:08:40 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-16 20:08:40 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-16 20:08:40 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-16 20:08:40 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-16 20:08:40 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-16 20:08:40 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-16 20:08:40 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-16 20:10:17 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-16 20:10:17 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-16 20:10:17 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-16 20:10:17 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-16 20:10:17 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-16 20:10:17 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-16 20:10:17 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-16 20:32:51 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-16 20:32:51 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-16 20:32:51 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-16 20:32:51 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-16 20:32:51 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-16 20:32:51 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-16 20:32:51 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-16 20:34:23 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-16 20:34:23 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-16 20:34:23 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-16 20:34:23 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-16 20:34:23 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-16 20:34:23 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-16 20:34:23 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-16 20:37:29 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-16 20:37:29 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-16 20:37:29 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-16 20:37:29 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-16 20:37:29 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-16 20:37:29 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-16 20:37:29 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-16 20:38:11 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-16 20:38:11 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-16 20:38:11 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-16 20:38:11 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-16 20:38:11 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-16 20:38:11 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-16 20:38:11 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-16 20:38:36 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-16 20:38:36 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-16 20:38:36 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-16 20:38:36 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-16 20:38:36 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-16 20:38:36 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-16 20:38:36 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-16 20:39:10 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-16 20:39:10 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-16 20:39:10 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-16 20:39:10 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-16 20:39:10 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-16 20:39:10 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-16 20:39:10 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202

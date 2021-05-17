@@ -6,22 +6,21 @@ import org.epam.handlertask.composite.ComponentType;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Composite implements Component {
+public class TextComponent implements Component {
     private List<Component> components;
     private ComponentType componentType;
 
-    public Composite(ComponentType componentType) {
+    public TextComponent(ComponentType componentType) {
         this.componentType = componentType;
         components = new ArrayList<>();
     }
 
+    public List<Component> getComponents() {
+        return components;
+    }
 
-    @Override
-    public void operation() {
-        int size = components.size();
-        for (Component component : components) {
-            component.operation();
-        }
+    public void setComponents(List<Component> components) {
+        this.components = components;
     }
 
     @Override
@@ -44,27 +43,55 @@ public class Composite implements Component {
     public Object getChild(int index) {
         return components.get(index);
     }
+
     @Override
     public String toString() {
-        StringBuilder stringBuilder=new StringBuilder();
-        switch (componentType) {
-            case PARAGRAPH:
-                for (Component composite : components) {
-                    stringBuilder.append(composite.toString()).append("\n");
-                }
-                break;
-            case SENTENCE:
-                for (Component composite : components) {
-                    stringBuilder.append(composite.toString()).append(" ");
-                }
-                break;
+        StringBuilder stringBuilder = new StringBuilder();
 
-            default:
+        switch (componentType) {
+
+            case TEXT: {
+                for (Component component : components) {
+                    stringBuilder.append("\n    ").append(component.toString());
+                }
+                break;
+            }
+
+            case PARAGRAPH:
                 for (Component composite : components) {
                     stringBuilder.append(composite.toString());
                 }
                 break;
+
+
+            case LEXEME: {
+                for (Component composite : components) {
+                    stringBuilder.append(composite.toString()).append(" ");
+                }
+                break;
+            }
+            case SENTENCE:
+            case WORD:
+            case EXPRESSION:
+            case SYMBOL: {
+                for (Component composite : components) {
+                    stringBuilder.append(composite.toString());
+                }
+                break;
+            }
         }
-        return stringBuilder.toString().trim();
+        String text = stringBuilder.toString();
+        String result = text.replaceAll(" \\.", "\\.").replaceAll(" ,", ",").
+                replaceAll(" !", "!").replaceAll(" \\?", "?");
+
+        return result.replaceFirst("\n", "");
     }
+           /* default:
+                for (Component composite : components) {
+                    stringBuilder.append(composite.toString());
+                }*/
+             /*   break;
+        }*/
+         /*   return stringBuilder.toString().trim();
+        }*/
 }

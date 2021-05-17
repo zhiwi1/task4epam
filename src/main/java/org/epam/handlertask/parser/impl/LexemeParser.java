@@ -4,8 +4,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.epam.handlertask.composite.Component;
 import org.epam.handlertask.composite.ComponentType;
-import org.epam.handlertask.composite.impl.Composite;
-import org.epam.handlertask.composite.impl.Leaf;
+import org.epam.handlertask.composite.impl.TextComponent;
+import org.epam.handlertask.composite.impl.TextLeaf;
 import org.epam.handlertask.parser.ParserChain;
 
 import java.util.regex.Matcher;
@@ -14,7 +14,8 @@ import java.util.regex.Pattern;
 public class LexemeParser implements ParserChain {
     private final static Logger logger = LogManager.getLogger();
     private final static String WORD_REGEXP = "[a-zA-Z]+";
-    private final static String PUNCTUATION = "\\p{Punct}";
+    private final static String PUNCTUATION = "[\\.,\\.+]";
+    private final static String EXPRESSION_REGEXP="^([~0-9|&()<>^]+)$";
 
     private ParserChain nextChain;
 
@@ -35,16 +36,26 @@ public class LexemeParser implements ParserChain {
 
                 String word = text.substring(wordMatcher.start(), wordMatcher.end());
 
-//               logger.info(word);
-                Composite wordComposite = new Composite(ComponentType.WORD);
+//              logger.info(word);
+                TextComponent wordComposite = new TextComponent(ComponentType.WORD);
                 composite.add(wordComposite);
                 nextChain.processData(word, wordComposite);
             }
+            Pattern expressionPattern = Pattern.compile(EXPRESSION_REGEXP);
+            Matcher expressionMatcher = expressionPattern.matcher(text);
+            while (expressionMatcher.find()) {
+                String expression = text.substring(expressionMatcher.start(), expressionMatcher.end());
+             //  logger.info(expression);
+                TextComponent expressionComposite = new TextComponent(ComponentType.EXPRESSION);
+                composite.add(expressionComposite);
+                nextChain.processData(expression, expressionComposite);
+            }
+
             char[] charArray = text.toCharArray();
             for (char character : charArray) {
                 if (Pattern.matches(PUNCTUATION, String.valueOf(character))) {
-//                    logger.info(character);
-                    composite.add(new Leaf(ComponentType.PUNCTUATION, String.valueOf(character)));
+//                   logger.info(character);
+                    composite.add(new TextLeaf(character));
                 }
             }
 

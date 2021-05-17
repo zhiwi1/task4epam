@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.epam.handlertask.composite.Component;
 import org.epam.handlertask.composite.ComponentType;
-import org.epam.handlertask.composite.impl.Composite;
+import org.epam.handlertask.composite.impl.TextComponent;
 import org.epam.handlertask.parser.ParserChain;
 
 import java.util.List;
@@ -30,9 +30,9 @@ public class SentenceParser implements ParserChain {
             List<String> lexemes = Stream.of(text.split(REGEXP_LEXEME))
                     .map(String::new).collect(Collectors.toList());
             for (String lexeme : lexemes) {
-                if (!lexeme.equals("")) {
-                   logger.info(lexeme);
-                    Composite lexemeComposite = new Composite(ComponentType.LEXEME);
+                if (!lexeme.isEmpty()) {
+                 //  logger.info(lexeme);
+                    TextComponent lexemeComposite = new TextComponent(ComponentType.LEXEME);
                     composite.add(lexemeComposite);
                     nextChain.processData(lexeme, lexemeComposite);
                 }
