@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.epam.handlertask.composite.Component;
 import org.epam.handlertask.composite.ComponentType;
-import org.epam.handlertask.composite.impl.TextComponent;
+import org.epam.handlertask.composite.impl.TextComposite;
 import org.epam.handlertask.composite.impl.TextLeaf;
 import org.epam.handlertask.parser.ParserChain;
 
@@ -37,7 +37,7 @@ public class LexemeParser implements ParserChain {
                 String word = text.substring(wordMatcher.start(), wordMatcher.end());
 
 //              logger.info(word);
-                TextComponent wordComposite = new TextComponent(ComponentType.WORD);
+                TextComposite wordComposite = new TextComposite(ComponentType.WORD);
                 composite.add(wordComposite);
                 nextChain.processData(word, wordComposite);
             }
@@ -46,7 +46,7 @@ public class LexemeParser implements ParserChain {
             while (expressionMatcher.find()) {
                 String expression = text.substring(expressionMatcher.start(), expressionMatcher.end());
              //  logger.info(expression);
-                TextComponent expressionComposite = new TextComponent(ComponentType.EXPRESSION);
+                TextComposite expressionComposite = new TextComposite(ComponentType.EXPRESSION);
                 composite.add(expressionComposite);
                 nextChain.processData(expression, expressionComposite);
             }

@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.epam.handlertask.composite.Component;
 import org.epam.handlertask.composite.ComponentType;
-import org.epam.handlertask.composite.impl.TextComponent;
+import org.epam.handlertask.composite.impl.TextComposite;
 import org.epam.handlertask.exception.HandlerException;
 import org.epam.handlertask.parser.impl.*;
 import org.epam.handlertask.reader.TextReader;
@@ -36,7 +36,7 @@ public class SearchInTextServiceTest {
         lexemeParser.setNext(wordParser);
         wordParser.setNext(expressionParser);
         String content = reader.readFromFile(RELATIVE_PATH);
-        component = new TextComponent(ComponentType.TEXT);
+        component = new TextComposite(ComponentType.TEXT);
         textParser.processData(content, component);
     }
 

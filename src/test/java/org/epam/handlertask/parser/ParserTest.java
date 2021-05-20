@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.epam.handlertask.composite.Component;
 import org.epam.handlertask.composite.ComponentType;
-import org.epam.handlertask.composite.impl.TextComponent;
+import org.epam.handlertask.composite.impl.TextComposite;
 import org.epam.handlertask.exception.HandlerException;
 import org.epam.handlertask.parser.impl.*;
 import org.epam.handlertask.reader.TextReader;
@@ -31,7 +31,7 @@ public class ParserTest {
         TextReader reader = TextReaderImpl.getInstance();
         String content = reader.readFromFile("src/test/resources/input.txt");
 //       logger.info(line);
-        Component rootComponent = new TextComponent(ComponentType.TEXT);
+        Component rootComponent = new TextComposite(ComponentType.TEXT);
         textParser.processData(content, rootComponent);
      System.out.print(rootComponent);
     }

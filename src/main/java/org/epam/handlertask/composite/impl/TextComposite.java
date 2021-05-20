@@ -6,11 +6,11 @@ import org.epam.handlertask.composite.ComponentType;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TextComponent implements Component {
+public class TextComposite implements Component {
     private List<Component> components;
     private ComponentType componentType;
 
-    public TextComponent(ComponentType componentType) {
+    public TextComposite(ComponentType componentType) {
         this.componentType = componentType;
         components = new ArrayList<>();
     }

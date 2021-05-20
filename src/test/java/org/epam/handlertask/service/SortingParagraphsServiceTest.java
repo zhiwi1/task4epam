@@ -2,7 +2,7 @@ package org.epam.handlertask.service;
 
 import org.epam.handlertask.composite.Component;
 import org.epam.handlertask.composite.ComponentType;
-import org.epam.handlertask.composite.impl.TextComponent;
+import org.epam.handlertask.composite.impl.TextComposite;
 import org.epam.handlertask.exception.HandlerException;
 import org.epam.handlertask.parser.impl.*;
 import org.epam.handlertask.reader.TextReader;
@@ -37,8 +37,8 @@ public class SortingParagraphsServiceTest {
         wordParser.setNext(expressionParser);
         String content = reader.readFromFile(RELATIVE_PATH);
         String sortedContent=reader.readFromFile(RELATIVE_PATH_SORTED);
-        sortedComponent = new TextComponent(ComponentType.TEXT);
-        component = new TextComponent(ComponentType.TEXT);
+        sortedComponent = new TextComposite(ComponentType.TEXT);
+        component = new TextComposite(ComponentType.TEXT);
         textParser.processData(sortedContent,sortedComponent);
         textParser.processData(content, component);
     }
