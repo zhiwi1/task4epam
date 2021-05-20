@@ -1,0 +1,53 @@
+2021-05-20 02:53:37 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-20 02:53:37 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-20 02:53:37 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-20 02:53:37 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-20 02:56:31 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-20 02:56:31 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-20 02:56:31 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-20 02:56:31 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-20 02:56:31 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-20 02:56:31 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-20 02:56:31 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-20 02:56:47 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-20 02:56:47 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-20 02:56:47 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-20 02:56:47 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-20 02:56:47 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-20 02:56:47 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-20 02:56:47 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-20 02:56:47 [main] INFO  org.epam.handlertask.service.SearchInTextServiceTest- The point of using 78 Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. 
+2021-05-20 02:58:12 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-20 02:58:12 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-20 02:58:12 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-20 02:58:12 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-20 02:58:12 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-20 02:58:12 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-20 02:58:12 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-20 02:58:12 [main] INFO  org.epam.handlertask.service.SearchInTextServiceTest- It has survived not only five centuries, but also the leap into 52 electronical typesetting, remaining 0 essentially 9 unchanged. 
+2021-05-20 02:58:12 [main] INFO  org.epam.handlertask.service.SearchInTextServiceTest- The point of using 78 Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. 
+2021-05-20 02:59:46 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-20 02:59:46 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-20 02:59:46 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-20 02:59:46 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-20 02:59:46 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-20 02:59:46 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-20 02:59:46 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-20 03:00:32 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-20 03:00:32 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-20 03:00:32 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-20 03:00:32 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-20 03:00:32 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-20 03:00:32 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-20 03:00:32 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-20 03:30:24 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-20 03:30:24 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-20 03:30:24 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-20 03:30:24 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-20 03:30:24 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-20 03:30:24 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-20 03:30:24 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-20 03:30:57 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-20 03:30:57 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-20 03:30:57 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-20 03:30:57 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9

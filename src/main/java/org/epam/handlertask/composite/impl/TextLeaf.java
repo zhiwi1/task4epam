@@ -6,6 +6,8 @@ import org.apache.logging.log4j.Logger;
 import org.epam.handlertask.composite.Component;
 import org.epam.handlertask.composite.ComponentType;
 
+import java.util.List;
+
 
 public class TextLeaf implements Component {
     private static final Logger logger = LogManager.getLogger(TextLeaf.class);
@@ -15,7 +17,6 @@ public class TextLeaf implements Component {
     public TextLeaf(char value) {
         this.value = value;
     }
-
 
     public char getValue() {
         return value;
@@ -32,7 +33,26 @@ public class TextLeaf implements Component {
     }
 
     @Override
-    public Object getChild(int index) {
+    public List<Component> getComponents() {
+        logger.log(Level.ERROR, "UnsupportedOperationException");
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void setComponents(List<Component> components) {
+        logger.log(Level.ERROR, "UnsupportedOperationException");
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public int getComponentsSize() {
+        logger.log(Level.ERROR, "UnsupportedOperationException");
+        throw new UnsupportedOperationException();
+    }
+
+
+    @Override
+    public Component getChild(int index) {
         logger.log(Level.ERROR, "UnsupportedOperationException");
         throw new UnsupportedOperationException();
     }

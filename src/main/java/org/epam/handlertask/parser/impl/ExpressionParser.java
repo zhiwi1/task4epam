@@ -35,7 +35,7 @@ public class ExpressionParser implements ParserChain {
                 String postfixNotation = converter.convertInfixToPostfix(text);
                 BinaryInterpreter interpreter = new BinaryInterpreterImpl(postfixNotation);
                 int result = interpreter.calculate();
-                logger.info(result);
+            //    logger.info(result);
 
                 String resultString = String.valueOf(result);
                 for (int i = 0; i < resultString.length(); i++) {

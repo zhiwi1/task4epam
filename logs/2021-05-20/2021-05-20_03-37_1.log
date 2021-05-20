@@ -1,0 +1,42 @@
+2021-05-20 03:33:47 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-20 03:33:56 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-20 03:33:56 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-20 03:33:56 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-20 03:33:56 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-20 03:33:56 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-20 03:33:56 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-20 03:33:56 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-20 03:35:35 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-20 03:35:35 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-20 03:35:35 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-20 03:35:35 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-20 03:35:35 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-20 03:35:35 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-20 03:35:35 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-20 03:35:35 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- 17 in ->It has survived not only five centuries, but also the leap into 52 electronic typesetting, remaining 0 essentially 9 unchanged.
+2021-05-20 03:35:35 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- 24 in ->It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+2021-05-20 03:35:35 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- 18 in ->It is a 1202 established fact that a reader will be of a page when looking at its layout.
+2021-05-20 03:35:35 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- 1 in ->Bye.
+2021-05-20 03:37:09 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-20 03:37:09 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-20 03:37:09 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-20 03:37:09 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-20 03:37:09 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-20 03:37:09 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-20 03:37:09 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-20 03:37:09 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- It has survived not only five centuries, but also the leap into 52 electronic typesetting, remaining 0 essentially 9 unchanged. It was popularised in the 5 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum...
+2021-05-20 03:37:09 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- 17 in ->It has survived not only five centuries, but also the leap into 52 electronic typesetting, remaining 0 essentially 9 unchanged.
+2021-05-20 03:37:09 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 78 Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English.
+2021-05-20 03:37:09 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- 24 in ->It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+2021-05-20 03:37:09 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- It is a 1202 established fact that a reader will be of a page when looking at its layout.
+2021-05-20 03:37:09 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- 18 in ->It is a 1202 established fact that a reader will be of a page when looking at its layout.
+2021-05-20 03:37:09 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- Bye.
+2021-05-20 03:37:09 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- 1 in ->Bye.
+2021-05-20 03:37:35 [main] INFO  epam.handlertask.reader.impl.TextReaderImpl- In readFromFile() : File are reading...
+2021-05-20 03:37:35 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 52
+2021-05-20 03:37:35 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 0
+2021-05-20 03:37:35 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 9
+2021-05-20 03:37:35 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 5
+2021-05-20 03:37:35 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 78
+2021-05-20 03:37:35 [main] INFO  epam.handlertask.parser.impl.ExpressionParser- 1202
+2021-05-20 03:37:35 [main] INFO  org.epam.handlertask.service.impl.ChangeTextServiceImpl- 1It has survived not only five centuries, but also the leap into 52 electronic typesetting, remaining 0 essentially 9 unchanged. It was popularised in the 5 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum...

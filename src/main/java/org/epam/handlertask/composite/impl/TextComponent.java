@@ -23,6 +23,11 @@ public class TextComponent implements Component {
         this.components = components;
     }
 
+    public int getComponentsSize() {
+        return components.size();
+    }
+
+
     @Override
     public void add(Component component) {
         components.add(component);
@@ -33,21 +38,29 @@ public class TextComponent implements Component {
         components.remove(component);
     }
 
-
     @Override
     public ComponentType getTextType() {
         return componentType;
     }
 
     @Override
-    public Object getChild(int index) {
+    public Component getChild(int index) {
         return components.get(index);
     }
 
     @Override
     public String toString() {
-        StringBuilder stringBuilder = new StringBuilder();
-
+        final var stringBuilder = new StringBuilder();
+        final String DOT_WITH_SPACE = " \\.";
+        final String DOT = "\\.";
+        final String COMMA_WITH_SPACE = " \\,";
+        final String COMMA = "\\,";
+        final String EXCLAMATION_POINT_WITH_SPACE = " !";
+        final String EXCLAMATION_POINT = "!";
+        final String QUESTION_MARK_WITH_SPACE = " \\?";
+        final String QUESTION_MARK = "?";
+        final String LINE_TRANSLATION = "\n";
+        final String NOTHING = "";
         switch (componentType) {
 
             case TEXT: {
@@ -81,17 +94,9 @@ public class TextComponent implements Component {
             }
         }
         String text = stringBuilder.toString();
-        String result = text.replaceAll(" \\.", "\\.").replaceAll(" ,", ",").
-                replaceAll(" !", "!").replaceAll(" \\?", "?");
+        String result = text.replaceAll(DOT_WITH_SPACE, DOT).replaceAll(COMMA_WITH_SPACE, COMMA).
+                replaceAll(EXCLAMATION_POINT_WITH_SPACE, EXCLAMATION_POINT).replaceAll(QUESTION_MARK_WITH_SPACE, QUESTION_MARK);
 
-        return result.replaceFirst("\n", "");
+        return result.replaceFirst(LINE_TRANSLATION, NOTHING);
     }
-           /* default:
-                for (Component composite : components) {
-                    stringBuilder.append(composite.toString());
-                }*/
-             /*   break;
-        }*/
-         /*   return stringBuilder.toString().trim();
-        }*/
 }
