@@ -1,6 +1,6 @@
 package org.epam.handlertask.interpreter;
 
-import org.epam.handlertask.converter.impl.InfixToPostfixConverterImpl;
+import org.epam.handlertask.interpreter.impl.InfixToPostfixConverterImpl;
 import org.epam.handlertask.interpreter.impl.BinaryInterpreterImpl;
 import org.testng.annotations.Test;
 

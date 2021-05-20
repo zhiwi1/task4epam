@@ -1,7 +1,8 @@
-package org.epam.handlertask.converter.impl;
+package org.epam.handlertask.interpreter.impl;
 
-import org.epam.handlertask.converter.InfixToPostfixConverter;
+import org.epam.handlertask.interpreter.InfixToPostfixConverter;
 
+import java.util.ArrayDeque;
 import java.util.Stack;
 
 public class InfixToPostfixConverterImpl implements InfixToPostfixConverter {
@@ -29,7 +30,7 @@ public class InfixToPostfixConverterImpl implements InfixToPostfixConverter {
     @Override
     public String convertInfixToPostfix(String infix) {
         StringBuilder stringBuilder = new StringBuilder();
-        Stack<Character> operator = new Stack<>();
+        ArrayDeque<Character> operator = new ArrayDeque<>();
         infix = replaceShifts(infix);
         char top;
         boolean flag = true;

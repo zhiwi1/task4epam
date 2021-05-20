@@ -1,6 +1,6 @@
 package org.epam.handlertask.converter;
 
-import org.epam.handlertask.converter.impl.InfixToPostfixConverterImpl;
+import org.epam.handlertask.interpreter.impl.InfixToPostfixConverterImpl;
 import org.testng.annotations.Test;
 
 public class ConvertInfixToPostfix {
