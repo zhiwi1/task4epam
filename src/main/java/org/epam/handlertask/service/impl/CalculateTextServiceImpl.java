@@ -102,17 +102,3 @@ public int calculateVowelCount(Component component) throws HandlerException {
         return countOfVowels;
     }
 }
-  /* @Override
-    public int calculateConsonantCount(AbstractComponent component) {
-        TextSearchService searchService = new TextSearchServiceImpl();
-        List<AbstractComponent> symbols = searchService.findAllSymbols(component);
-        int consonantCount = 0;
-        for (AbstractComponent symbolComponent : symbols) {
-            LeafElement leafElement = (LeafElement) symbolComponent;
-            String stringToSearch = Character.toString(leafElement.getContent()).toLowerCase();
-            if (CONSONANTS.contains(stringToSearch)) {
-                consonantCount++;
-            }
-        }
-        return consonantCount;
-    }*/

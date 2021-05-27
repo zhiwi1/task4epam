@@ -17,11 +17,10 @@ import org.testng.annotations.Test;
 import java.util.HashMap;
 
 public class CalculateTextServiceTest {
-    private final static Logger logger = LogManager.getLogger();
-    String RELATIVE_PATH = "src/test/resources/input.txt";
-    TextReader reader = TextReaderImpl.getInstance();
-    Component component;
-    CalculateTextServiceImpl service;
+    private final String RELATIVE_PATH = "src/test/resources/input.txt";
+    private final TextReader reader = TextReaderImpl.getInstance();
+    private Component component;
+    private CalculateTextServiceImpl service;
 
     @BeforeTest
     public void readAndParse() {
@@ -54,13 +53,14 @@ public class CalculateTextServiceTest {
     public void calculateVowelCount() throws HandlerException {
         int actualCount = service.calculateVowelCount(component.getChild(0).getChild(0));
         int expectedCount = 38;
-        Assert.assertEquals(actualCount,expectedCount);
+        Assert.assertEquals(actualCount, expectedCount);
     }
+
     @Test
     public void calculateConsonantsCount() throws HandlerException {
         int actualCount = service.calculateConsonantsCount(component.getChild(0).getChild(0));
         int expectedCount = 62;
-        Assert.assertEquals(actualCount,expectedCount);
+        Assert.assertEquals(actualCount, expectedCount);
     }
 
 }

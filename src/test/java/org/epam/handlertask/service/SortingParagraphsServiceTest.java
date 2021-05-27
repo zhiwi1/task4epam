@@ -15,11 +15,11 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 public class SortingParagraphsServiceTest {
-    String RELATIVE_PATH="src/test/resources/input.txt";
-    String RELATIVE_PATH_SORTED="src/test/resources/sortedParagraphs.txt";
-    TextReader reader = TextReaderImpl.getInstance();
-    Component component;
-    Component sortedComponent;
+    private final String RELATIVE_PATH = "src/test/resources/input.txt";
+    private final String RELATIVE_PATH_SORTED = "src/test/resources/sortedParagraphs.txt";
+    private final TextReader reader = TextReaderImpl.getInstance();
+    private Component component;
+    private Component sortedComponent;
 
 
     @BeforeTest
@@ -36,17 +36,18 @@ public class SortingParagraphsServiceTest {
         lexemeParser.setNext(wordParser);
         wordParser.setNext(expressionParser);
         String content = reader.readFromFile(RELATIVE_PATH);
-        String sortedContent=reader.readFromFile(RELATIVE_PATH_SORTED);
+        String sortedContent = reader.readFromFile(RELATIVE_PATH_SORTED);
         sortedComponent = new TextComposite(ComponentType.TEXT);
         component = new TextComposite(ComponentType.TEXT);
-        textParser.processData(sortedContent,sortedComponent);
+        textParser.processData(sortedContent, sortedComponent);
         textParser.processData(content, component);
     }
+
     @Test
     public void sortingParagraphsTest() throws HandlerException {
-        ChangeTextServiceImpl service=new ChangeTextServiceImpl();
-        List<Component> actualParagraphs =service.sortParagraphsBySentences(component);
-        List<Component> expectedParagraphs=sortedComponent.getComponents();
-        Assert.assertEquals(actualParagraphs.toString(),expectedParagraphs.toString());
+        ChangeTextServiceImpl service = new ChangeTextServiceImpl();
+        List<Component> actualParagraphs = service.sortParagraphsBySentences(component);
+        List<Component> expectedParagraphs = sortedComponent.getComponents();
+        Assert.assertEquals(actualParagraphs.toString(), expectedParagraphs.toString());
     }
 }

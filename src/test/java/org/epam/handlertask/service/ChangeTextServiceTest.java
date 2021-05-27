@@ -16,9 +16,9 @@ import org.testng.annotations.Test;
 
 public class ChangeTextServiceTest {
     private final static Logger logger = LogManager.getLogger();
-    String RELATIVE_PATH = "src/test/resources/input.txt";
-    TextReader reader = TextReaderImpl.getInstance();
-    Component component;
+    private final String RELATIVE_PATH = "src/test/resources/input.txt";
+    private final TextReader reader = TextReaderImpl.getInstance();
+    private Component component;
 
     @BeforeTest
     public void readAndParse() {
@@ -43,8 +43,8 @@ public class ChangeTextServiceTest {
         ChangeTextServiceImpl service = new ChangeTextServiceImpl();
         service.deleteAllSentencesWithWordCountLessThen(component, 31);
         String expected = "The point of using 78 Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. ";
-        String actual=component.getChild(1).toString();
-        Assert.assertEquals(actual,expected);
+        String actual = component.getChild(1).toString();
+        Assert.assertEquals(actual, expected);
     }
 
 }

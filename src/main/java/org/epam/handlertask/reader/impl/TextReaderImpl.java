@@ -30,14 +30,11 @@ public class TextReaderImpl implements TextReader {
 
 
     public String readFromFile(String pathToFile) {
-
         logger.info("In readFromFile() : File are reading...");
         StringBuilder builder = new StringBuilder();
-
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(pathToFile))) {
             Stream<String> stream = bufferedReader.lines();
             stream.forEach(o -> builder.append(o).append("\n"));
-//            stream.forEach(o->builder.append(o).append(" "));
         } catch (IOException e) {
             logger.error("Wrong filepath: " + pathToFile);
         }

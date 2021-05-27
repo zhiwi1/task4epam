@@ -17,10 +17,9 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 public class SearchInTextServiceTest {
-    private final static Logger logger= LogManager.getLogger();
-    String RELATIVE_PATH = "src/test/resources/input.txt";
-    TextReader reader = TextReaderImpl.getInstance();
-    Component component;
+    private final String RELATIVE_PATH = "src/test/resources/input.txt";
+    private final TextReader reader = TextReaderImpl.getInstance();
+    private Component component;
 
     @BeforeTest
     public void readAndParse() {
@@ -41,11 +40,11 @@ public class SearchInTextServiceTest {
     }
 
     @Test
-    public void findAllSentencesWithTheLongestWordTest ()throws HandlerException {
+    public void findAllSentencesWithTheLongestWordTest() throws HandlerException {
         SearchInTextServiceImpl service = new SearchInTextServiceImpl();
-       List<Component> sentencesWithTheLongestWord= service.findAllSentencesWithTheLongestWord(component);
-       String expected="The point of using 78 Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. ";
-       String actual=sentencesWithTheLongestWord.get(0).toString();
-        Assert.assertEquals(actual,expected);
+        List<Component> sentencesWithTheLongestWord = service.findAllSentencesWithTheLongestWord(component);
+        String expected = "The point of using 78 Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. ";
+        String actual = sentencesWithTheLongestWord.get(0).toString();
+        Assert.assertEquals(actual, expected);
     }
 }

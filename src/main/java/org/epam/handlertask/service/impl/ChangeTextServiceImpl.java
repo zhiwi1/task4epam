@@ -1,7 +1,7 @@
 package org.epam.handlertask.service.impl;
 
 import org.epam.handlertask.comparator.CompositeComparator;
-import org.epam.handlertask.comparator.impl.SortSpecificationParagraphsByCountSentences;
+import org.epam.handlertask.comparator.impl.ComparatorOfParagraphsByCountSentences;
 import org.epam.handlertask.composite.Component;
 import org.epam.handlertask.composite.ComponentType;
 import org.epam.handlertask.exception.HandlerException;
@@ -32,7 +32,7 @@ public class ChangeTextServiceImpl implements ChangeTextService {
         ComponentType elementType = composite.getTextType();
         if (elementType == ComponentType.TEXT) {
             List<Component> paragraphs = composite.getComponents();
-            CompositeComparator comparator = new SortSpecificationParagraphsByCountSentences();
+            CompositeComparator comparator = new ComparatorOfParagraphsByCountSentences();
             paragraphs.sort(comparator);
             return paragraphs;
         } else {

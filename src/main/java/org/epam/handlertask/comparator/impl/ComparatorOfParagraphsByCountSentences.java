@@ -3,7 +3,7 @@ package org.epam.handlertask.comparator.impl;
 import org.epam.handlertask.comparator.CompositeComparator;
 import org.epam.handlertask.composite.Component;
 
-public class SortSpecificationParagraphsByCountSentences implements CompositeComparator {
+public class ComparatorOfParagraphsByCountSentences implements CompositeComparator {
     @Override
     public int compare(Component firstComponent, Component secondComponent) {
         int result = 0;

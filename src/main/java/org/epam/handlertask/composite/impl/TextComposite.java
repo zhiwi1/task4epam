@@ -51,21 +51,11 @@ public class TextComposite implements Component {
     @Override
     public String toString() {
         final var stringBuilder = new StringBuilder();
-        final String DOT_WITH_SPACE = " \\.";
-        final String DOT = "\\.";
-        final String COMMA_WITH_SPACE = " \\,";
-        final String COMMA = "\\,";
-        final String EXCLAMATION_POINT_WITH_SPACE = " !";
-        final String EXCLAMATION_POINT = "!";
-        final String QUESTION_MARK_WITH_SPACE = " \\?";
-        final String QUESTION_MARK = "?";
-        final String LINE_TRANSLATION = "\n";
-        final String NOTHING = "";
         switch (componentType) {
 
             case TEXT: {
                 for (Component component : components) {
-                    stringBuilder.append("\n    ").append(component.toString());
+                    stringBuilder.append(ToStringExpression.LINE_TRANSLATION_WITH_SPACES).append(component.toString());
                 }
                 break;
             }
@@ -79,7 +69,7 @@ public class TextComposite implements Component {
 
             case LEXEME: {
                 for (Component composite : components) {
-                    stringBuilder.append(composite.toString()).append(" ");
+                    stringBuilder.append(composite.toString()).append(ToStringExpression.SPACE);
                 }
                 break;
             }
@@ -94,9 +84,28 @@ public class TextComposite implements Component {
             }
         }
         String text = stringBuilder.toString();
-        String result = text.replaceAll(DOT_WITH_SPACE, DOT).replaceAll(COMMA_WITH_SPACE, COMMA).
-                replaceAll(EXCLAMATION_POINT_WITH_SPACE, EXCLAMATION_POINT).replaceAll(QUESTION_MARK_WITH_SPACE, QUESTION_MARK);
+        return ToStringExpression.replaceAllForToString(text);
+    }
 
-        return result.replaceFirst(LINE_TRANSLATION, NOTHING);
+    private static class ToStringExpression {
+        final static String SPACE = " ";
+        final static String LINE_TRANSLATION_WITH_SPACES = "\n    ";
+        final static String DOT_WITH_SPACE = " \\.";
+        final static String DOT = "\\.";
+        final static String COMMA_WITH_SPACE = " \\,";
+        final static String COMMA = "\\,";
+        final static String EXCLAMATION_POINT_WITH_SPACE = " !";
+        final static String EXCLAMATION_POINT = "!";
+        final static String QUESTION_MARK_WITH_SPACE = " \\?";
+        final static String QUESTION_MARK = "?";
+        final static String LINE_TRANSLATION = "\n";
+        final static String NOTHING = "";
+
+        static String replaceAllForToString(String text) {
+            String result = text.replaceAll(DOT_WITH_SPACE, DOT).replaceAll(COMMA_WITH_SPACE, COMMA).
+                    replaceAll(EXCLAMATION_POINT_WITH_SPACE, EXCLAMATION_POINT).replaceAll(QUESTION_MARK_WITH_SPACE, QUESTION_MARK);
+
+            return result.replaceFirst(LINE_TRANSLATION, NOTHING);
+        }
     }
 }

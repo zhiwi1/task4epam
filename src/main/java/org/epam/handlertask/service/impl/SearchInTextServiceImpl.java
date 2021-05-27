@@ -82,35 +82,4 @@ public class SearchInTextServiceImpl implements SearchInTextService {
         }
         return sentencesWithTheLongestWord;
     }
-//Deprecated
-  /*  public List<Component> findAllSentencesWithTheLongestWord(Component text) throws HandlerException {
-        ComponentType elementType = text.getTextType();
-        if (elementType == ComponentType.TEXT) {
-            int countOfLengthOfWord = 0;
-            CalculateTextServiceImpl service = new CalculateTextServiceImpl();
-            List<Component> sentences = findAllSentences(text);
-            List<Component> sentencesWithTheLongestWord = new ArrayList<>();
-            for (Component sentence : sentences) {
-                for (int j = 0; j < sentence.getComponentsSize(); j++) {
-                    Component lexeme = sentence.getChild(j);
-                    for (int k = 0; k < lexeme.getComponentsSize(); k++) {
-                        Component word = lexeme.getChild(k);
-                        if (word.getTextType() == ComponentType.WORD) {
-                            int currentLength = service.calculateWordLength(word);
-                            if (currentLength > countOfLengthOfWord) {
-                                countOfLengthOfWord = currentLength;
-                                sentencesWithTheLongestWord = new ArrayList<>();
-                                sentencesWithTheLongestWord.add(sentence);
-                            } else if (currentLength == countOfLengthOfWord) {
-                                sentencesWithTheLongestWord.add(sentence);
-                            }
-                        }
-                    }
-                }
-            }
-            return sentencesWithTheLongestWord;
-        } else {
-            throw new HandlerException("Composite type: " + elementType + " is not paragraph");
-        }
-    }*/
 }
